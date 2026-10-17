@@ -1,4 +1,15 @@
-data/csv_exportados/ 
-*.csv 
-*.parquet 
-data/ 
+# Los datos se bajan del release, no van en el repo (ver README).
+data/
+*.zip
+
+# Rankings y salidas locales
+*.csv
+
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# Ignorar carpetas de datos locales
+data/csv_exportados/
+*.csv
