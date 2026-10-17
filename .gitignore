@@ -2,14 +2,7 @@
 data/
 *.zip
 
-# Rankings y salidas locales
-*.csv
-
 __pycache__/
 *.py[cod]
 .venv/
 .ipynb_checkpoints/
-
-# Ignorar carpetas de datos locales
-data/csv_exportados/
-*.csv
